@@ -1,0 +1,109 @@
+*{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0px auto;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+    
+}
+.btn button{
+    
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+.main-todo{
+    padding: 10px;
+    border-right: 1px solid #444;
+    width: 50%;
+    background-color: aquamarine;
+
+}
+.main-todo .todo{
+    
+    border-bottom: 1px solid #444;
+    padding: 20px;
+
+}
+.main-todo .todo .input{
+    display: block;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  
+
+}
+.main-todo .todo .input input{
+    width:auto;
+    word-wrap: break-word;
+    margin-top: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #666;
+}
+.main-todo .todo .input textarea{
+    width:auto;
+    word-wrap: break-word;
+    margin-top: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #666;
+
+}
+.main-todo .todo .input label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.main-done{
+    border-right: 1px solid #444;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(159, 71, 241);
+
+}
+.main-done .done{
+    border-bottom: 1px solid #444;
+    padding: 20px;
+
+}
+.main-done .done .input{
+    display: block;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.main-done .done .input input{
+    width:auto;
+    word-wrap: break-word;
+    margin-top: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #666;
+}
+.main-done .done .input textarea{
+    width:auto;
+    word-wrap: break-word;
+    margin-top: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #666;
+
+}
+.main-done .done .input label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
